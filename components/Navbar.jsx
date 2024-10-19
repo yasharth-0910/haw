@@ -24,7 +24,7 @@ function Navbar() {
         <Link className="navParts" to="about">About</Link>
         <Link className="navParts" to="prize">Prize</Link>
         <Link className="navParts" to="faq">FAQs</Link>
-        <Link className="navParts" to="sponser">Partners</Link>
+        {/* <Link className="navParts" to="sponser">Partners</Link> */}
       </div>
 
       <button type="button" onClick={handleNavClick} className="menuButton">
@@ -40,7 +40,7 @@ function Navbar() {
         <Link className="navParts" to="about">About</Link><br />
         <Link className="navParts" to="prize">Prize</Link><br />
         <Link className="navParts" to="faq">FAQs</Link><br />
-        <Link className="navParts" to="sponser">Partners</Link>
+        {/* <Link className="navParts" to="sponser">Partners</Link> */}
       </div>
     </div>
   );

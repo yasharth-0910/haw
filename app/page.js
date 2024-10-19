@@ -34,7 +34,7 @@ function Page() {
       <div className="relative">
         <Insights />
         <div className="gradient-04" />
-        <Feedback />
+        {/* <Feedback /> */}
       </div>
       <Footer />
     </div>
