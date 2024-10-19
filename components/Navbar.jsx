@@ -1,14 +1,11 @@
 'use client';
 
-// import Link from 'next/link';
-
 import { Link } from 'react-scroll';
-
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 function Navbar() {
-  const [status, setStatus] = React.useState(false);
+  const [status, setStatus] = useState(false);
   const handleNavClick = () => {
     setStatus(!status);
   };
@@ -17,49 +14,31 @@ function Navbar() {
     <div className="nav">
       <div className="heading">
         <h2>
-          <Link className="navParts" to="home">HACKSTREET 2.0</Link>
+          <Link className="navParts" to="home">INNOVATE 2.0</Link>
         </h2>
       </div>
       <div className="NavBar-desc">
-        <Link className="navParts" to="home">HOME</Link>
-        <Link className="navParts" to="about">ABOUT</Link>
-        <Link className="navParts" to="prize">PRIZE</Link>
+        <Link className="navParts" to="home">Home</Link>
+        <Link className="navParts" to="about">About</Link>
+        <Link className="navParts" to="prize">Prize</Link>
         <Link className="navParts" to="faq">FAQs</Link>
-        <Link className="navParts" to="sponser">PARTNERS</Link>
-
+        <Link className="navParts" to="sponser">Partners</Link>
       </div>
+
       <button type="button" onClick={handleNavClick} className="menuButton">
-        <img id="menuImg" src="/menuBtn.png" />
+        <img id="menuImg" src="/menuBtn.png" alt="Menu" />
       </button>
 
-      <div
-        style={{ display: status ? 'block' : 'none' }}
-        className="NavBar-description flex flex-col"
-      >
+      <div style={{ display: status ? 'block' : 'none' }} className="NavBar-description">
         <button type="button" onClick={handleNavClick} className="crossImg">
-          <img src="/whiteCross.png" />
+          <img src="/whiteCross.png" alt="Close Menu" />
         </button>
 
-        <Link className="navParts" to="home">
-          HOME
-        </Link>
-        <br />
-        <Link className="navParts" to="about">
-          ABOUT
-        </Link>
-        <br />
-        <Link className="navParts" to="prize">
-          PRIZE
-        </Link>
-        <br />
-        <Link className="navParts" to="faq">
-          FAQs
-        </Link>
-        <br />
-        <Link className="navParts" to="sponser">
-          PARTNERS
-        </Link>
-        <br />
+        <Link className="navParts" to="home">Home</Link><br />
+        <Link className="navParts" to="about">About</Link><br />
+        <Link className="navParts" to="prize">Prize</Link><br />
+        <Link className="navParts" to="faq">FAQs</Link><br />
+        <Link className="navParts" to="sponser">Partners</Link>
       </div>
     </div>
   );

@@ -18,29 +18,29 @@ function About() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TitleText title="About HackStreet 2.0" textStyles="text-center" className="my-5" />
+        <TitleText title="About INNOVATE 2.O" textStyles="text-center" className="my-5" />
 
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
         >
-          <span className="font-extrabold text-white">HackStreet</span> is a 24 hour
-          long running hackathon, being held on{' '}
-          <span className="font-extrabold text-white">3rd and 4th of February.</span>{' '}
-           We call for{' '}
-          <span className="font-extrabold text-white">
-            hackers, artists, coders, designers, tech evangelists, creatives, and
-            developers
+          <span className="font-extrabold text-white">INNOVATE 2.O</span> is a HYBRID
+           hackathon, being held on{' '}
+          <span className="font-extrabold text-white">6 - 9 TH November 2k24.</span>{' '}
+          This year, Innovate 2.0 returns with
+          even more excitement,   .{' '}
+                    <span className="font-extrabold text-white">inviting a
+          larger community of innovators to
+          build </span>
+          on the tradition of turning
+          groundbreaking ideas into real-world
+          applications,{' '}
+                    <span className="font-extrabold text-white">
+                    reinforcing the
+          hackathon’s mission to drive
+          innovation and entrepreneurship
           </span>{' '}
-          from all disciplines to take part to{' '}
-          <span className="font-extrabold text-white">win awesome prizes </span>
-          and collaborate with other developers and gain immersive experiences. Throughout the weekend hackers
-          at Hackstreet will have{' '}
-          <span className="font-extrabold text-white">
-            unique opportunities to learn 
-          </span>{' '}
-          from each other. We are determined to
-          have an all-inclusive and diverse group of students joining us for the hackathon.
+          
         </motion.p>
 
         <motion.img

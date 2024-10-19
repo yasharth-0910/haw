@@ -47,8 +47,8 @@ function GetStarted() {
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD STARTS</h2>
-                <small>3RD FEBRUARY, 2024</small>
-                <p>3:00 PM onwards</p>
+                <small>6TH NOVEMBER, 2024</small>
+                <p>12:00 NOON onwards</p>
                 <span className="right-arrow" />
               </div>
             </div>
@@ -62,8 +62,8 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">MID EVALUATION</h2>
-                <small>3RD FEBRUARY, 2024</small>
-                <p>9:00 PM onwards</p>
+                <small>7TH NOVEMBER, 2024</small>
+                <p>12:00 NOON onwards</p>
                 <span className="left-arrow" />
               </div>
             </div>
@@ -77,8 +77,8 @@ function GetStarted() {
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD ENDS</h2>
-                <small>4TH FEBRUARY, 2024</small>
-                <p>3:00 PM </p>
+                <small>7TH NOVEMBER, 2024</small>
+                <p>5:00 PM </p>
                 <span className="right-arrow" />
               </div>
             </div>
@@ -92,8 +92,8 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">PROJECT SUBMISSION</h2>
-                <small>4TH FEBRUARY, 2024</small>
-                <p>3:00 PM - 3:30 PM</p>
+                <small>7TH NOVEMBER, 2024</small>
+                <p>8:00 PM </p>
                 <span className="left-arrow" />
               </div>
             </div>
@@ -106,13 +106,23 @@ function GetStarted() {
             <div className="container right">
               <img src="/two.jpg" />
               <div className="text-box">
-                <h2 className="heading1">FINAL EVALUATION</h2>
-                <small>4TH FEBRUARY, 2024</small>
-                <p>3:30 PM onwards</p>
+                <h2 className="heading1">PROJECT EVALUATION</h2>
+                <small>8TH FEBRUARY, 2024</small>
+                <p>11:30 PM onwards</p>
                 <span className="right-arrow" />
               </div>
             </div>
+            <div className="container left">
+              <img src="/stopwatch.jpeg" />
+              <div className="text-box">
+                <h2 className="heading1">FINAL PRESENTATION</h2>
+                <small>9TH NOVEMBER, 2024</small>
+                <p>10:00 AM </p>
+                <span className="left-arrow" />
+              </div>
+            </div>
           </motion.div>
+          
           
         </div>
       </motion.div>

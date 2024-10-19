@@ -1,13 +1,17 @@
 'use client';
 
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './hero.css';
-
-import { useEffect } from 'react';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 function Hero() {
+  const [text, setText] = useState('');
+  const phrases = [
+    'INNOVATE 2.O HACK TO BUILD',
+  ];
+
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -17,6 +21,39 @@ function Hero() {
     return () => {
       document.body.removeChild(script);
     };
+  }, []);
+
+  useEffect(() => {
+    let currentPhraseIndex = 0;
+    let currentLetterIndex = 0;
+    let isDeleting = false;
+
+    const animateText = async () => {
+      const currentPhrase = phrases[currentPhraseIndex];
+
+      if (!isDeleting && currentLetterIndex <= currentPhrase.length) {
+        setText(currentPhrase.slice(0, currentLetterIndex));
+        currentLetterIndex++;
+      } else if (isDeleting && currentLetterIndex >= 0) {
+        setText(currentPhrase.slice(0, currentLetterIndex));
+        currentLetterIndex--;
+      }
+
+      if (currentLetterIndex === currentPhrase.length + 1) {
+        await new Promise(resolve => setTimeout(resolve, 2000)); // Pause at the end
+        isDeleting = true;
+      }
+
+      if (currentLetterIndex === 0 && isDeleting) {
+        isDeleting = false;
+        currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+      }
+
+      const timeout = isDeleting ? 50 : 100;
+      setTimeout(animateText, timeout);
+    };
+
+    animateText();
   }, []);
 
   return (
@@ -29,27 +66,26 @@ function Hero() {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div
-          className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]"
+          className="flex justify-center items-center flex-col z-10 lg:mt-[70px] mt-[70px]"
           id="heroPage"
         >
           <motion.h1
-            variants={textVariant(1.1)}
+            variants={textVariant(1.5)}
             className={styles.heroHeading}
             id="head"
           >
-            The Incognito
+            {text}
+            <motion.span
+              animate={{ opacity: [0, 1, 0] }}
+              transition={{ duration: 1.7 }}
+              style={{ marginLeft: '0.1em' }}
+            >
+              |
+            </motion.span>
           </motion.h1>
-          <motion.div
-            variants={textVariant(1.1)}
-            className="flex flex-row justify-center items-center"
-          >
-            <h1 className={styles.heroHeading}>Realm</h1>
-            {/* <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1> */}
-          </motion.div>
         </div>
 
-        <div className="frontPageBtn">
+        <div className="frontPageBtn flex space-x-4">
           <div
             className="apply-button"
             data-hackathon-slug="hackstreet24"

@@ -2,22 +2,17 @@ export const exploreWorlds = [
   {
     id: 'Murder-1',
     imgUrl: '/edu.jpg',
-    title: 'Education',
+    title: 'Fintech',
   },
   {
     id: 'Murder-2',
     imgUrl: '/webimage.jpg',
-    title: 'Web 3.0/Blockchain',
-  },
-  {
-    id: 'murder-3',
-    imgUrl: '/health.jpg',
-    title: 'Healthcare',
+    title: 'Cyber Security',
   },
   {
     id: 'murder-4',
     imgUrl: '/envir.jpg',
-    title: 'Environment',
+    title: 'Sustainability',
   },
   {
     id: 'Murder-5',
@@ -53,6 +48,12 @@ export const newFeatures2 = [
     subtitle:
         '2nd Runner-up project of the hackathon will win some awesome prizes.',
   },
+  {
+    imgUrl: '/trophy.svg',
+    title: 'CATEGORY BEST',
+    subtitle:
+        'Caategory best project of the hackathon will win some awesome prizes.',
+  },
   // {
   //   imgUrl: '/headset.svg',
   //   title: 'ALL GIRLS TEAM',
@@ -65,7 +66,7 @@ export const insights = [
   {
     imgUrl: '/image32.jpeg',
     title: ' Who can attend?',
-    subtitle: 'Hackstreet is open to students of all colleges.',
+    subtitle: 'Innovate is open to students of all colleges.',
   },
   {
     imgUrl: '/image30.jpeg',
@@ -83,7 +84,7 @@ export const insights = [
     imgUrl: '/image34.jpeg',
     title: '   How to register myself in the hackathon??',
     subtitle:
-      'All you need is to fill your details above by just clicking on the Devfolio button and also join Discord, we will guide you through everything there',
+      'All you need is to fill your details above by just clicking on the registration button and also join Discord, we will guide you through everything there',
   },
   {
     imgUrl: '/image31.jpeg',
@@ -107,7 +108,7 @@ export const socials = [
   {
     name: 'instagram',
     url: '/instagram.svg',
-    href: 'https://www.instagram.com/ieeesbjiit/',
+    href: 'https://www.instagram.com/jiityouthclub128/profilecard/?igsh=MTNvYm5rd2ZjbHBscA==',
   },
   {
     name: 'facebook',

@@ -45,7 +45,7 @@ function Footer() {
       >
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-            Enter the InCognito Realm
+            INNOVATE - HACK TO BUILD
           </h4>
           {/* <button type='button' className='flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]'>
           <img src='/headset.svg' alt='headset' className='w-[24px] h-[24px] object-contain' />
@@ -63,7 +63,7 @@ function Footer() {
           <div className="mb-[50px] h-[2px] bg-white opacity-10" />
           <div className="flex items-center justify-between flex-wrap gap-4 resp">
             <h4 className="font-extrabold text-[24px] text-white">
-              HACKSTREET 2.0
+              INNOVATE 2.O 
             </h4>
             {/* <p className="font-bold text-[18px] text-white opacity-50">
               Contact Us:{' '}
@@ -74,9 +74,9 @@ function Footer() {
             <div className="font-bold text-[100%] text-white opacity-50 flex flex-row">
               <IoLocationSharp className="text-3xl" />
               <div>
-                <p>XENITH 2024</p>
+                <p>INNOVATE 2.O</p>
                 <p>Jaypee Institute Of Information Technology</p>
-                <p> Sector-62, Noida </p>
+                <p>Sector-128, Noida </p>
                 <p>India</p>
               </div>
             </div>
@@ -85,21 +85,28 @@ function Footer() {
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p className='text-[15px]'>
-                  Aryesh Srivastava:{' '}
-                  <a href="tel:+919999453352">+91 99994 53352</a>
+                  Ayush Thakur:{' '}
+                  <a href="tel:+918595939381">+91 85959 39381</a>
                 </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p className='text-[15px]'>
-                  Raghav Goel:{' '}
-                  <a href="tel:+919050892902">+91 90508 92902</a>
+                  Kavim Gupta:{' '}
+                  <a href="tel:+919599584720">+91 95995 84720</a>
+                </p>
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <FaPhoneAlt />
+                <p className='text-[15px]'>
+                  Ronak Khemka:{' '}
+                  <a href="tel:+919660771231">+91 96607 71231</a>
                 </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />
-                <a href="mailto:ieeesbjiitsb@gmail.com" id="gmail">
-                  ieeesbjiitdb@gmail.com
+                <a href="mailto:jiityouthclub128@gmail.com" id="gmail">
+                jiityouthclub128@gmail.com
                 </a>
               </div>
             </div>
