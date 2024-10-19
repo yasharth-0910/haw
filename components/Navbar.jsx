@@ -3,6 +3,7 @@
 import { Link } from 'react-scroll';
 import React, { useState } from 'react';
 import './Navbar.css';
+import Image from 'next/image';
 
 function Navbar() {
   const [status, setStatus] = useState(false);
@@ -12,7 +13,8 @@ function Navbar() {
 
   return (
     <div className="nav">
-      <div className="heading">
+      <div className="heading flex gap-6">
+        <Image src="/Hackathon_Logo.png" alt="Logo" width={50} height={50} />
         <h2>
           <Link className="navParts" to="home">INNOVATE 2.0</Link>
         </h2>
