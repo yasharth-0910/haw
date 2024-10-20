@@ -66,7 +66,7 @@ function Hero() {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div
-          className="flex justify-center items-center flex-col z-10 lg:mt-[70px] mt-[70px]"
+          className="flex justify-center items-center flex-col z-10 lg:mt-[70px] mt-[70px] mb-[60px]"
           id="heroPage"
         >
           <motion.h1
