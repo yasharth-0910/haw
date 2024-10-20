@@ -23,7 +23,7 @@ function Navbar() {
       <div className="NavBar-desc">
         <Link className="navParts" to="home">Home</Link>
         <Link className="navParts" to="about">About</Link>
-        <Link className="navParts" to="prize">Prize</Link>
+        <Link className="navParts" to="prize">Prizes</Link>
         <Link className="navParts" to="faq">FAQs</Link>
         {/* <Link className="navParts" to="sponser">Partners</Link> */}
         <Image src="/JYC.png" alt="Logo" width={50} height={50} />

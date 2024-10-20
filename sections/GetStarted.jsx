@@ -48,7 +48,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD STARTS</h2>
                 <small>6TH NOVEMBER, 2024</small>
-                <p>12:00 NOON onwards</p>
+                <p>09:00 AM onwards</p>
                 <span className="right-arrow" />
               </div>
             </div>
@@ -61,9 +61,9 @@ function GetStarted() {
             <div className="container left">
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
-                <h2 className="heading1">MID EVALUATION</h2>
+                <h2 className="heading1">FIRST EVALUATION</h2>
                 <small>7TH NOVEMBER, 2024</small>
-                <p>12:00 NOON onwards</p>
+                <p>08:00 PM RESULTS ANNOUNCEMENT</p>
                 <span className="left-arrow" />
               </div>
             </div>
@@ -76,9 +76,9 @@ function GetStarted() {
             <div className="container right">
               <img src="/two.jpg" />
               <div className="text-box">
-                <h2 className="heading1">HACKING PERIOD ENDS</h2>
-                <small>7TH NOVEMBER, 2024</small>
-                <p>5:00 PM </p>
+                <h2 className="heading1">MODEL PREPRATION</h2>
+                <small>8TH NOVEMBER, 2024</small>
+                <p>10:00 AM ONWARDS</p>
                 <span className="right-arrow" />
               </div>
             </div>
@@ -91,14 +91,14 @@ function GetStarted() {
             <div className="container left">
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
-                <h2 className="heading1">PROJECT SUBMISSION</h2>
-                <small>7TH NOVEMBER, 2024</small>
-                <p>8:00 PM </p>
+                <h2 className="heading1">OFFLINE SUBMISSION</h2>
+                <small>9TH NOVEMBER, 2024</small>
+                <p>10:00 AM ONWARDS</p>
                 <span className="left-arrow" />
               </div>
             </div>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             initial="hidden"
             whileInView="show"
             variants={fadeIn('left', 'spring', 1.2, 1.5)}
@@ -121,7 +121,7 @@ function GetStarted() {
                 <span className="left-arrow" />
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
           
           
         </div>

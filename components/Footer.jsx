@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 // eslint-disable-next-line no-unused-vars
@@ -61,6 +61,10 @@ function Footer() {
 
         <div className="flex flex-col">
           <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+          <div className='flex gap-4'>
+          <Image src="/Logo-jiit[1].png" alt="Logo" width={40} height={40} />
+          <Image src="/JYC.png" alt="Logo" width={50} height={50} />
+          </div>
           <div className="flex items-center justify-between flex-wrap gap-4 resp">
             <h4 className="font-extrabold text-[24px] text-white">
               INNOVATE 2.O 
@@ -92,15 +96,15 @@ function Footer() {
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p className='text-[15px]'>
-                  Kavim Gupta:{' '}
-                  <a href="tel:+919599584720">+91 95995 84720</a>
+                  Ronak Khemka:{' '}
+                  <a href="tel:+919660771231">+91 96607 71231</a>
                 </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p className='text-[15px]'>
-                  Ronak Khemka:{' '}
-                  <a href="tel:+919660771231">+91 96607 71231</a>
+                  Kavim Gupta:{' '}
+                  <a href="tel:+919599584720">+91 95995 84720</a>
                 </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
