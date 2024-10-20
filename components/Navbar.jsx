@@ -14,7 +14,8 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="heading flex gap-6">
-        <Image src="/Hackathon_Logo.png" alt="Logo" width={50} height={50} />
+        <Image src="/Logo-jiit[1].png" alt="Logo" width={40} height={40} />
+        <Image src="/Hackathon_Logo1.png" alt="Logo" width={50} height={50} />
         <h2>
           <Link className="navParts" to="home">INNOVATE 2.0</Link>
         </h2>
@@ -25,6 +26,7 @@ function Navbar() {
         <Link className="navParts" to="prize">Prize</Link>
         <Link className="navParts" to="faq">FAQs</Link>
         {/* <Link className="navParts" to="sponser">Partners</Link> */}
+        <Image src="/JYC.png" alt="Logo" width={50} height={50} />
       </div>
 
       <button type="button" onClick={handleNavClick} className="menuButton">
